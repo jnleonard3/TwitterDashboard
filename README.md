@@ -4,5 +4,5 @@ A simple React, Node, Express, ES2015-ES2016, Webpack, and Babel 6 app for displ
 
 ```
 npm install
-webpack webpack.config.js
+node src/server/index.js
 ```

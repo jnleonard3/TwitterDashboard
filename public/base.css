@@ -1,0 +1,29 @@
+.tweet {
+	font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: solid 1px #eee;
+    width: calc(33% - 30px);
+    display: inline-block;
+    margin-right: 10px;
+    min-height: 150px;
+    max-height: 300px;
+    border-radius: 10px;
+    background-color: #eee;
+    float: left;
+    position: relative;
+    -webkit-transition: all 0.7s ease-out;
+}
+
+.tweet .user-image {
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+}
+
+.tweet .user {
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	font-size: 10;
+}
